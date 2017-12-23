@@ -15,3 +15,22 @@ Office hours M-T-W 130-230p && 6pm-8pm
 -------
 
 Framing - CLI is faster and more precise
+
+PWD- Print working directory tells you where you are on cli
+
+Absolute path is list of all directories leading up to file ex. /directory1/directory2/file
+
+Relative path is directions from where you are to where file is ./ = current ../ = parent
+
+Ctrl-e = cursor to end of line
+Ctrl-a = cursor to beginning 
+
+SUBMIT WORK:
+
+Go to assignments issue page/ new issue/ CLI HW Devon Johnson
+
+Exercises:
+
+to_oz - https://git.generalassemb.ly/ga-wdi-exercises/to_oz
+
+https://git.generalassemb.ly/devjohnson/to_oz
