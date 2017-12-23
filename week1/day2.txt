@@ -1,0 +1,55 @@
+Internet fundamentals 
+
+HTTP = protocol for the web
+
+Built around client-sever model
+
+Server response is usually:
+Html page
+Raw data (json)
+
+http://www.kittengifs.com:80/popular-gifs#results?term=cute&page=2
+|-----|-----------------|---|-----------|--------|----------------|
+   |           |          |       |          |           |
+ protocol    host       port    path     fragment  query-string
+
+
+RESTful routes
+
+GET
+POST
+PUT
+PATCH
+DELETE
+
+-------------------------------------
+
+HTML- structure
+CSS- styling
+JS - action
+
+JQuery is a library for JS
+
+web app is a program that users access via browser. Builds html page on fly customized to that user. 
+
+Backend vs frontend
+
+Backend is where data is stored and logic is implemented  (i.e. validating data, responding to / processing data / generating reports).
+
+Frontend can offload some work to be more responsive. What users see
+
+=====================================================
+
+Intro to GIT
+Version control and tracking safety net
+
+Git Hub
+Git Branching
+
+Git branch <new branch name> is how you make a new branch
+Git checkout <name> is how you switch to it
+Git log to see repo history
+
+==========================================
+
+
