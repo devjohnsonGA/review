@@ -1,0 +1,31 @@
+Day 3
+
+Comp sci fundamentals - watching youtube series on this
+
+Html & css 
+
+Day 4
+
+CSS flexbox
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+To center an item. Whatever container you put it in body/div etc becomes the flex container
+
+Flex-container{
+-webkit-justify-content: space-around;
+Justify-content: 	 space-around;
+ 
+Centers flex box with even space around flex item
+
+Airbnb 
+Haiku pull and push
+
+Debugged with google web inspector
+https://googlechrome.github.io/devtools-samples/debug-js/get-started
+
+Did portfolio site
+
+Doing intro to programming tabs tonight
