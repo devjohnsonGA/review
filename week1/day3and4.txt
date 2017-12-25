@@ -29,3 +29,43 @@ https://googlechrome.github.io/devtools-samples/debug-js/get-started
 Did portfolio site
 
 Doing intro to programming tabs tonight
+
+==================
+
+If (true) {
+Do }
+Else if (true) {
+Do }
+Else {
+Do
+}
+
+
+While (true) {
+Do }
+
+
+Arr.push adds to array
+arr.pop removes from it
+
+
+For loop to iterate through an array (I = 0; I < arr.length; I++)
+
+++++++++++++++++++++++++++++++++++++
+Fizz buzz answer below
+
+Num = 1
+
+while(num <= 100){
+if(num % 5 == 0 && num % 3 == 0){
+console.log('fizzbuzz')
+} else if (num % 5 == 0) {
+console.log('buzz')
+} else if (num % 3 == 0){
+console.log('fizz')
+} else {
+console.log(num)
+}
+num++
+}
++++++++++++++++++++++++++++++++++++++
