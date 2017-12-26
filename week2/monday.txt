@@ -1,0 +1,17 @@
+Markdown
+
+Important for documentation 
+Tells people what it does
+And how to use it
+
+Function - reusable contained logic
+
+Scope- where a variable can be used
+
+var sayHello = function () {} is a function expression.
+function sayHello () {} is a function declaration.
+
+
+A function expression follows the same rules as variable assignment. Since the value of the reference is a function, that function is only available in the lines after the value assignment.
+With a function declaration, no matter where you put it in your code, it behaves as if you wrote it as the very first line in your code.
+Aside from that, they are functionally equivalent.
