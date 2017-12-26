@@ -15,3 +15,22 @@ function sayHello () {} is a function declaration.
 A function expression follows the same rules as variable assignment. Since the value of the reference is a function, that function is only available in the lines after the value assignment.
 With a function declaration, no matter where you put it in your code, it behaves as if you wrote it as the very first line in your code.
 Aside from that, they are functionally equivalent.
+
+=====================
+
+Functions are values
+Can be referenced and passed into other functions as arguments 
+
+Methods are functions for objects
+
+Ie - .forEach to iterate through an array
+
+.map to create a new modified version of an array
+
+.reduce can do what map filter and forEach does
+
+========================
+
+Callbacks use a function sometime in the future
+
+
