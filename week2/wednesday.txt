@@ -1,0 +1,90 @@
+Big O notation
+
+Standardizes how we discuss the efficiency of algorithms
+
+Use it to discuss the time complexity and or memory efficiency
+
+Not exact metric for benchmarking but gives idea of how efficient and algorithm is.
+
+For time complexity, we want to count how many times the code is run in context of how large the input to the code is. For example, O(1) is a very efficient piece of code, O(N!) is very inefficient. Let's break this down into categories of Big-O
+
+)(1) = good/predictable 
+
+O(N!) = terrible amount of possible operations 
+
+========================
+
+Events & callbacks 
+
+
+DOM events are sent to notify code of user interactions on a page
+
+There are many events that we can listen for and respond to in JavaScript. Broadly speaking, we can divide these events in to four categories:
+
+Document / Window Events
+
+load
+resize
+scroll
+unload
+Mouse Events
+
+click
+dblclick
+mouseenter
+mouseleave
+Key Events
+
+keypress
+keydown
+keyup
+Form Events
+
+submit
+change
+focus
+
+==============================
+
+First we target the button:
+
+// JS: 
+const button = document.querySelector('.js-button')
+
+// jQuery:
+const button = $('.js-button')
+
+
+Once we have the element from the DOM, we can tell JS to listen for an event:
+
+// This is the event listener
+
+// JS:
+button.addEventListener('click', handleClickEvent)
+
+// jQuery:
+button.on('click', handleClickEvent)
+
+============= define function that is callback
+
+function handleClickEvent(){
+  console.log('I was clicked!')
+}
+
+=================================
+
+he addEventListener() method takes two arguments: (1) the event we want to listen for and (2) the function that should be called whenever that event is invoked.
+
+=====================
+
+Callback function 
+
+A callback function is a function that is passed in to another function as an argument, so that it can be called (invoked) at a later point. This is one of the many ways that JavaScript handles asynchronous code.
+
+Function used as an argument
+
+================
+
+Event listener practice. I did that
+
+Doing pixart
