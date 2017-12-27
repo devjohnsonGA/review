@@ -1,0 +1,38 @@
+Code challenge
+
+Objects & context 
+
+two concepts that are crucial for encapsulation and abstraction in Javascript: Objects and Context. Objects allow us to box up multiple functions and data under a single variable. Context determines which object "owns" a function while it's being invoked.
+
+Objects = key value pairs collections
+
+Nested collections = car.gears[1
+
+Methods = object functions
+
+Context is the object the function is attached to
+
+'this' as a replacement for subject in question
+
+===========================
+
+The Dom and jQuery 
+
+Document object model
+
+Change or access a page without messing with html is manipulating the DOM
+
+Everything in DOM is a node
+
+Ie:
+
+Element node
+Attribute nodes
+Text nodes
+
+=======================
+
+
+Query is js library used to manipulate the DOM
+
+Calculater done 
