@@ -1,0 +1,19 @@
+Week 3 was project 1
+
+For me I hangman
+Got parts of it to pull up but didn't finish until a week later trying to put it together and got reviewed notes
+
+Intro to node and npm 
+
+Server is to respond to request
+
+CRUD
+
+Create
+Read
+Update
+Destroy
+
+
+Node - javascript on server side
+

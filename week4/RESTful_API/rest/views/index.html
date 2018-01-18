@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emergency Compliment</title>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+  </script>
+  <script>
+        console.log("just a check1");
+  </script>      
+  <!-- <script src='ejs_production.js'></script> -->
+  <script src='script/scripts'></script>
+</head>
+<body>
+    <h1>Emergency Compliment</h1>
+    <button id='button'>Press</button>
+    <div id='resultsDiv'></div>
+
+    <script>
+        $(document).ready(function(){
+            var compliments = [
+    "Your instructors love you",
+    "High five = ^5",
+    "Is it Ruby Tuesday yet?",
+    "It's almost beer o'clock",
+    "The Force is strong with you"
+]   
+    var ejs = require('ejs')
+    var rendered = new EJS({url: 'scripts.ejs'}).render(compliments)
+        console.log(rendered)
+    $('#resultsDiv').html(rendered)
+        })
+    </script>
+</body>
+</html>
